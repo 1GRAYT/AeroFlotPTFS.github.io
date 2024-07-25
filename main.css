@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/749/007/large_2x/airplane-in-sky-background-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.center-image {
+    text-align: center;
+}
+
+.block {
+    background: #00008B;
+    height: 200px;
+    width: 300px;
+}
+
+button {
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #00008B;
+    cursor: pointer;
+    color:#ffffff;
+}
