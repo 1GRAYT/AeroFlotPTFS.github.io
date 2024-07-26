@@ -1,6 +1,15 @@
-body {
+.body {
     background-color: #ffffff;
     background-image: url("https://static.vecteezy.com/system/resources/previews/026/749/007/large_2x/airplane-in-sky-background-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.body2 {
+    background-color: #ffffff;
+    background-image: url("https://russianemirates.com/upload/brand/pictureForArticleHeader/59511288dd05a.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -13,8 +22,28 @@ body {
 
 .block {
     background: #00008B;
-    height: 200px;
-    width: 300px;
+    position: center;
+    top: 10px;
+    left: 30px;
+    height: 500px;
+    width: 1000px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+.txt{
+    color:#ffffff;
+    text-align: center;
 }
 
 button {
@@ -23,6 +52,16 @@ button {
     border: none;
     border-radius: 25px;
     background-color: #00008B;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.button {
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #3a3cba;
     cursor: pointer;
     color:#ffffff;
 }
